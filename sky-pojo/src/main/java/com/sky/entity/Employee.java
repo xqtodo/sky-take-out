@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 @Data
 @Builder
-@NoArgsConstructor
+ @NoArgsConstructor
 @AllArgsConstructor
 public class Employee implements Serializable {
 
