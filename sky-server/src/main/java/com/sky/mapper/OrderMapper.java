@@ -9,6 +9,7 @@ import org.apache.ibatis.annotations.Update;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author: lxq
@@ -43,4 +44,6 @@ public interface OrderMapper {
 
     @Select("select * from orders where status = #{status} and order_time < #{orderTime}")
     List<Orders> getByStatusAndOrdertimeLT(Integer deliveryInProgress, LocalDateTime time);
+
+    Double sumByMap(Map map);
 }
