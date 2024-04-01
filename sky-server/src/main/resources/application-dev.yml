@@ -8,8 +8,8 @@ sky:
     password: 123456
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5tAKkc6Wm9M6pSxUyHWA
-    access-key-secret: zZwlpM62pkR17gCQgIs1987mn3Enox
+    access-key-id: 配置阿里云对象存储id
+    access-key-secret: 配置阿里云对象存储secret
     bucket-name: sky-take-out-lxq
   redis:
     host: localhost
